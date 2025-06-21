@@ -1,12 +1,6 @@
-/* =======================
-   MODERN PROFESSIONAL LAWYER WEBSITE
-   CLIENT-ATTRACTING DESIGN
-   ======================= */
 
-/* Import Google Fonts for Premium Typography */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* Advanced CSS Variables for Premium Theming */
 :root {
   /* Premium Color Palette */
   --primary-gold: #C9A876;
@@ -38,7 +32,7 @@
   --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-/* Reset and Base Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +54,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Premium Typography System */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
@@ -87,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.95;
 }
 
-/* Ultra-Premium Navigation */
 .navbar {
   background: rgba(15, 20, 25, 0.95) !important;
   backdrop-filter: blur(20px);
@@ -165,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-/* Cinematic Hero Section */
+
 header {
   position: relative;
   min-height: 100vh;
@@ -218,7 +210,6 @@ header .text-center {
   }
 }
 
-/* Elegant Floating Particles */
 header::before {
   background-image: 
     radial-gradient(2px 2px at 20px 30px, rgba(201, 168, 118, 0.3), transparent),
@@ -233,7 +224,7 @@ header::before {
   100% { background-position: 100% 100%; }
 }
 
-/* Premium About Section */
+
 #content {
   position: relative;
   padding: 6rem 0;
@@ -311,7 +302,7 @@ header::before {
   font-weight: 400;
 }
 
-/* Stunning Practice Areas */
+
 #Expertise {
   position: relative;
   padding: 6rem 0;
@@ -361,7 +352,6 @@ header::before {
   box-shadow: var(--shadow-gold);
 }
 
-/* Revolutionary Card Design */
 .card {
   border: none;
   border-radius: 20px;
@@ -439,7 +429,7 @@ header::before {
   margin-bottom: 2rem;
 }
 
-/* Premium Buttons */
+
 .btn-outline-primary {
   background: transparent;
   border: 2px solid var(--primary-gold);
@@ -479,7 +469,7 @@ header::before {
   box-shadow: var(--shadow-gold);
 }
 
-/* Luxurious Counselling Section */
+
 #Counselling {
   position: relative;
   padding: 6rem 0;
@@ -554,7 +544,7 @@ header::before {
   background: linear-gradient(135deg, #c82333 0%, #dc3545 100%);
 }
 
-/* Elite Contact Section */
+
 #Contact {
   position: relative;
   padding: 6rem 0;
@@ -699,7 +689,7 @@ header::before {
   font-size: 1rem;
 }
 
-/* Premium Contact Form */
+
 .contact-form {
   padding: 4rem;
   background: rgba(255, 255, 255, 0.98);
@@ -761,7 +751,7 @@ header::before {
   background: linear-gradient(135deg, #D4AF37 0%, #C9A876 100%);
 }
 
-/* Social Media Enhancement */
+
 .social-links h6 {
   color: var(--accent-gold);
   font-weight: 600;
@@ -810,7 +800,7 @@ header::before {
   box-shadow: var(--shadow-gold);
 }
 
-/* Responsive Excellence */
+
 @media (max-width: 992px) {
   .contact-info,
   .contact-form {
@@ -880,29 +870,7 @@ header::before {
     padding: 1rem 2rem;
   }
 }
-/*
 
-#counselling-services {
-  background-color: #fff8e6;
-}
-
-#counselling-services h2 {
-  color: #b35a00;
-}
-
-#counselling-services p {
-  color: #444;
-}
-
-#counselling-services .btn-primary {
-  background-color: #d48806;
-  border: none;
-}
-
-#counselling-services .btn-primary:hover {
-  background-color: #b35a00;
-  color: #fff;
-}*/
 
 #Counselling {
   background-color: #fff8e6;
@@ -944,10 +912,6 @@ header::before {
   border-color: var(--accent-gold);
 }
 
-
-
-
-/* Advanced Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -981,7 +945,7 @@ header::before {
   }
 }
 
-/* Scroll Animations */
+
 .fade-in {
   animation: fadeInUp 0.8s ease-out;
 }
@@ -994,7 +958,7 @@ header::before {
   animation: slideInRight 0.8s ease-out;
 }
 
-/* Performance Optimizations */
+
 .card,
 .btn-outline-primary,
 .contact-icon {
@@ -1006,7 +970,7 @@ header::before {
   will-change: background-color, backdrop-filter;
 }
 
-/* Print Styles */
+
 @media print {
   * {
     box-shadow: none !important;
@@ -1018,9 +982,9 @@ header::before {
     color: black !important;
   }
 }
-/* Footer Section Styling */
+
 #footer {
-  background-color: #070500; /* Soft pale peach */
+  background-color: #070500; 
   color: wheat;
   font-size: 0.95rem;
   border-top: 1px solid #e6d9c4;
