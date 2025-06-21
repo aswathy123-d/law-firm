@@ -1023,3 +1023,32 @@ header::before {
 #footer .fa-balance-scale:hover {
   color: #000;
 }
+@media (max-width: 576px) {
+  
+  .navbar-nav .nav-link {
+    padding: 0.6rem 1rem !important;
+    font-size: 0.95rem;
+  }
+  .btn,
+  .btn-outline-primary,
+  .btn-danger,
+  .btn-submit {
+    width: 100% !important;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .card {
+    margin-bottom: 1.5rem;
+  }
+  .lead,
+  .card-text,
+  .card-title {
+    word-break: break-word;
+  }
+}
+
+.navbar {
+  z-index: 1050; 
+}
+
+
